@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: sans-serif;
+    }
+
+    .home {
+        min-height: 100vh;
+        width: 100%;
+        background-color:rgb(106, 94, 184);
+        background-position: center;
+    }
+
+    
+    #nav {
+        background-color: #47092b;
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid white;
+      }
+      
+      #nav ul {
+          text-align: center;
+      }
+      #nav li {
+          display: inline-block;
+          margin: 15px;
+          padding: 10px;
+          list-style-type:none;
+        vertical-align: middle;
+         }
+      
+      #nav a {
+          text-decoration: none;
+          padding:10px  10px  10px  10px;
+          color: white;
+          font-size: 15px;
+          vertical-align: middle;
+      }
+      
+      #nav a:hover {
+          color: rgb(219, 230, 68);
+          background-color: black;
+          border-radius: 5px;
+      }
+
+      
+
+      
+      h3 {
+        display: block;
+        font-size: 30px;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        position: relative;
+      }
+
+      #image {
+        display: block;
+        margin-left: 38%;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 5px;
+        border: 5px solid purple;
+        border-radius: 6px;
+        float: left;
+      }
+
+      p {
+        color: black;
+        font-size: 18px;
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+    
+    /****** TABLE SECTION ******/
+    .tab {
+        min-height: 100vh;
+        width: 100%;
+        background-color: rgb(175, 223, 81);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .table {
+        display: inline-block;
+        position: center;
+        margin-left: 20%;
+        color: #091247;
+    }
+
+    #h3 {
+        font-size: 15px;
+    }
+
+     /****** FORM SECTION ******/
+
+     .form {
+        min-height: 100vh;
+        width: 100%;
+        padding-bottom: 80px;
+        background-color: #c4699b;
+        background-position: center;
+        background-size: cover;
+     }
+
+     .maya {
+         display: inline-block;
+         width: 800px;
+         margin-top: 20px;
+         margin-bottom:20px ;
+         margin-left: 40%;
+         float: center;
+     }
